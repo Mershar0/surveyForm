@@ -14,7 +14,7 @@ This project is a simple survey form created as part of a web design feedback co
 - CSS
 
 ## Preview
-([Survey]((https://github.com/Mershar0/surveyForm/blob/main/img/survey.png)))
+([Survey](https://github.com/Mershar0/surveyForm/blob/main/img/survey.png))
 
 ## How to Use
 1. Clone the repository:
