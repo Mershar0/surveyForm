@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Help Us Improve: Web Design Feedback Survey</h1>
+  <p id="description">Thank you for taking the time to participate in our web design survey. Your feedback is invaluable as we strive to enhance our website.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Name<input id="name" name="name" type="text" placeholder="Name" required></label>
+      <label for="email" id="email-label">Email<input id="email" name="email" type="email" placeholder="Primary email" required></label>
+      <label for="number" id="number-label">Age<input id="number" name="number" type="number" min="5" max="120" placeholder="Age"></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>What do you prefer in a theme?</legend>
+      <label for="colorful-name"><input id="colorful-name" name="theme" type="radio" class="inline" value="colorful">Colorful animation</label>
+      <label for="scenic-name"><input id="scenic-name" name="theme" type="radio" class="inline" value="scenic">Scenic landscapes</label>
+      <label for="abstract-name"><input id="abstract-name" name="theme" type="radio" class="inline" value="abstract">Abstract background</label>
+      <label for="preference-name"><input id="preference-name" name="theme" type="radio" class="inline" value="preference">No preference</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Based on your experience, does this beginner design of a survey have potential in the web design industry?</legend>
+      <label for="yes-option"><input id="yes-option" name="chance" type="checkbox" class="inline" value="yes">Yes</label>
+      <label for="no-option"><input id="no-option" name="chance" type="checkbox" class="inline" value="no">No</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>From 1 to 5, How much would you rate this page?</legend>
+      <select name="rating" id="rating">
+        <option value="">(Select one)</option>
+        <option value="1">1 - Horrible</option>
+        <option value="2">2 - Not so good</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Good</option>
+        <option value="5">5 - Excellent</option>
+      </select>
+      <textarea id="comment" name="comment" placeholder="Enter a comment regarding the rating of the page"></textarea>
+    </fieldset>
+
+    <input id="submit" type="submit" value="Submit">
+  </form>
+</body>
+</html>
