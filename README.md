@@ -13,6 +13,9 @@ This project is a simple survey form created as part of a web design feedback co
 - HTML
 - CSS
 
+## Preview
+([Survey]((https://github.com/Mershar0/surveyForm/blob/main/img/survey.png)))
+
 ## How to Use
 1. Clone the repository:
    ```bash
@@ -21,7 +24,6 @@ This project is a simple survey form created as part of a web design feedback co
 2. Navigate to the project directory and open index.html in your web browser.
 
 ## Contributing
-
 If you wish to contribute to this project, please follow these steps:
 
 1. Fork the repository.
@@ -32,7 +34,6 @@ If you wish to contribute to this project, please follow these steps:
 6. Open a Pull Request.
 
 ## Author
-
 - Name: Mershar0
 - GitHub: [Mersha0](github.com/Mershar0)
 
